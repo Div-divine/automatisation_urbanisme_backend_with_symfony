@@ -1,12 +1,23 @@
-##Description
-Ce projet utilise symfony uniquement pour gérer les API
+# Nom du projet
+Urbanisme back API symfony
 
-##Instruction
-Une fois que vous avez clôné le repo, allez dans le fichier php.ini que utilisez pour ce projet.
-Pour retrouver votre php.ini allez dans la racine de vitre projet par bash puis entrez
-`php --ini`
-vous verez la route vers votre fichier php.ini
-`Une fois dans votre php.ini enlevez le point virgule (;) devant extension=mysqli  et extension=pdo_mysql`
-##Lancer votre projet
-`composer install`
-`symfony server:start`
+# Cloner le projet
+git clone https://github.com/Div-divine/automatisation_urbanisme_backend_with_symfony.git
+
+# Instruction
+
+```bash
+cd dossier-projet(donc la racine de votre projet)
+
+## Installer les dépendances
+composer install
+
+## Prérequis
+Assurez vous d'avoir décommenté dans votre php.ini les lignes suivantes en enlevant le point virgule devant:
+
+extension=mysqli
+extension=pdo_mysql
+
+## Lancer le projet
+symfony server:start
+
