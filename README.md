@@ -18,6 +18,12 @@ Assurez vous d'avoir décommenté dans votre php.ini les lignes suivantes en enl
 extension=mysqli
 extension=pdo_mysql
 
+Pour trouver votre fichier php.ini dans la racine de votre projet entrez
+php --ini
+
+Ceci vous affichera la route vers votre fichier php.ini
+
+
 ## Lancer le projet
 symfony server:start
 
